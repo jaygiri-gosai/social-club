@@ -107,3 +107,39 @@ p {
     width: 100%;
   }
 }
+
+/* Quote section */
+
+.main-quote-container {
+  margin-top: 5rem;
+  padding: 2rem 0 4rem 1rem;
+  background-color: teal;
+  color: yellow;
+  margin-bottom: 5rem;
+}
+
+.main-quote-container h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: 5rem;
+}
+
+/* Event section */
+.event-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.event-container img {
+  width: 30%;
+}
+
+@media only screen and (max-width: 1048px) {
+  .event-container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .event-container img {
+    width: 100%;
+  }
+}
